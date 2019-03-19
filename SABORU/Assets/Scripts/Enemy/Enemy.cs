@@ -56,9 +56,11 @@ public class Enemy : MonoBehaviour
         if(Physics.Raycast(ray,out hit,rayDistance)){
             //Playerにあたると
             if (hit.collider.tag == "Player")
+            {
                 Debug.Log("Player Ray!!!");
-            //Playerを消す
-            Destroy(Player);
+                //Playerを消す
+                Destroy(Player);
+            }
         }
     }
 }
