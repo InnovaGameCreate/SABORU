@@ -7,11 +7,12 @@ public class GameState : MonoBehaviour
 
     // 現在のゲーム進行状態
     public enum Progress {
+        
         None = -1,
         Title,
-        Playing,
+        Main,
         GameOver,
-        Clear,
+        GameClear,
         // TODO 分岐するならこれより下にも追加する
         
     }
