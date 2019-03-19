@@ -7,6 +7,10 @@ public class Player : MonoBehaviour
 {
     //playerのダメージ
     public float playerDamagePoint = 0;
+    //稼いだお金
+    public int getMoney = 0;
+    //所持金を表示するテキスト用変数
+    public Text getMoneyText;
     //スライダーコンポーネント格納変数
     Slider slider;
 
@@ -25,6 +29,8 @@ public class Player : MonoBehaviour
         }
 
         slider.value = playerDamagePoint;
+
+        getMoneyText.text = "所持金：" + getMoney.ToString() + "円";
         
     }
 }

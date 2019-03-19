@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
     //rayで当たったオブジェクトの情報を格納
     RaycastHit hit;
     //rayの飛ばせる距離
-    int rayDistance = 25;
+    int rayDistance = 10;
 
 
     void Start()

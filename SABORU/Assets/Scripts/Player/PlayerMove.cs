@@ -7,7 +7,7 @@ public class PlayerMove : MonoBehaviour
     // 移動方向
     [SerializeField] private Vector3 speed;
     // 移動速度
-    public float moveSpeed = 5.0f;
+    public float moveSpeed = 2.0f;
     //プレイヤー自動回転速度
     [SerializeField] private float applySpeed = 0.2f;
     // カメラ参照用変数
